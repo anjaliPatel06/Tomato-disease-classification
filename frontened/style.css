@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f1fff7;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #123;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.upload-box {
+    display: block;
+    border: 2px dashed #b7e7c7;
+    border-radius: 18px;
+    padding: 55px;
+    text-align: center;
+    cursor: pointer;
+    background: #f2fff7;
+}
+
+.upload-icon {
+    font-size: 42px;
+    color: #32b36b;
+}
+
+.upload-content h3 {
+    margin-top: 15px;
+    color: #234;
+}
+
+.upload-content p {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 16px;
+    background: #32b36b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #27965a;
+}
+
+.result-card {
+    text-align: center;
+}
+
+.result-card img {
+    width: 220px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.result-card h2 {
+    color: #2b7a4b;
+}

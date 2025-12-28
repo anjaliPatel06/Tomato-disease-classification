@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Potato Disease Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="icon">📷</div>
+        <h1>Potato Disease Detector</h1>
+        <p>Upload a potato leaf image to detect diseases instantly</p>
+    </div>
+
+    <!-- UPLOAD CARD -->
+    <div class="card upload-card">
+        <label class="upload-box">
+            <input type="file" id="imageInput" accept="image/*" hidden>
+            <div class="upload-content">
+                <div class="upload-icon">⬆</div>
+                <h3>Click to upload potato leaf image</h3>
+                <p>PNG, JPG or JPEG (MAX. 10MB)</p>
+            </div>
+        </label>
+
+        <button onclick="predict()">Predict Disease</button>
+    </div>
+
+    <!-- RESULT CARD (Prediction + Confidence) -->
+    <div class="card result-card" id="resultCard" style="display:none;">
+        <img id="previewImage">
+        <h2 id="predictionText"></h2>
+        <p id="confidenceText"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
